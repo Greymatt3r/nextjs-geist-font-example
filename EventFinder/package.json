@@ -1,0 +1,27 @@
+{
+  "name": "eventfinder",
+  "version": "1.0.0",
+  "description": "A React Native app for finding local events",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build": "expo build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["react-native", "expo", "events", "location", "maps"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@expo/vector-icons": "^14.1.0",
+    "@types/react": "^19.1.9",
+    "@types/react-native": "^0.73.0",
+    "expo": "^53.0.20",
+    "expo-location": "^18.1.6",
+    "react-native": "^0.80.2",
+    "react-native-maps": "^1.24.15",
+    "typescript": "^5.9.2"
+  }
+}
